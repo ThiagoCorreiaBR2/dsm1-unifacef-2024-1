@@ -1,19 +1,24 @@
 import React from "react";
-import {View,Text,TextInput,Button} from "react-native";
+import {View,Text,TextInput,Button, Pressable,Image} from "react-native";
 import styles from './styles'
 import { FontAwesome6 } from '@expo/vector-icons';
+import { instagram } from "../Imagens";
 
 export default function Login({navigation}) {
     return (
         <View style={styles.container}>
                 <View style={styles.uppart}>
                     <View >
-                        <FontAwesome6  name="instagram" size ={100} color='linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)'/>
+                        <Text style={{paddingBottom:50}}>Português (Brasil)</Text>
+                    </View>
+                    <View >
+                        <Image source={instagram} style={{ width: 100, height: 100 }} />
                     </View>
                     <View style={styles.inputstorage}>
-                        <TextInput style={styles.input} placeholder="Nome de usuário, Email ou núm..."/>
+                        <TextInput style={styles.input} placeholder="Nome de usuário, Email ou número"/>
                         <TextInput style={styles.input} placeholder="Senha" secureTextEntry={true}/>
-                        <Button style={styles.button} title="Entrar" onPress={() => navigation.navigate('Homepage')}/>
+                        <Pressable style={styles.buttonLogin}onPress={() => navigation.navigate('Homepage')}>Entrar</Pressable>
+                        <Pressable >Esqueceu sua senha?</Pressable>
                     </View>
                     
                 </View>
@@ -21,7 +26,7 @@ export default function Login({navigation}) {
   
                 <View styles={styles.bottom}>
                     <View style={styles.bottomSection}>
-                    <Button title="Criar uma nova conta" style={styles.botaoCriar}>Criar uma nova conta</Button>
+                    <Pressable  style={styles.botaoCriar}>Criar uma nova conta</Pressable>
                     <Text style={styles.bottomText}>Thiago Correia Azarias</Text>
                     </View>
                 </View>

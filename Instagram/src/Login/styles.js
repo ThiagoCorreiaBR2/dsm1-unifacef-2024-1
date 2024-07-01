@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     backgroundImage: 'linear-gradient(to bottom right, #EBC2FA, #EDF6FA,#D6FADE)',
     alignItems: 'center',
     justifyContent: 'center',
+    width: '100%',
   },
   uppart:{
     alignItems: 'center',
@@ -27,34 +28,59 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     padding:5,
     margin:5,
-    width: 200,
+    width: "80%",
     borderRadius: 10,
-    selectionColor: 'blue',
-    backgroundColor:"lightgray",
-    color: 'black',
-    border: '2px solid black',
+    borderWidth:2,
+    height:40,
+    borderColor:"#9AA4B5",
+    backgroundColor:"#F5EDFA",
+    color: '#9AA4B5',
   },
   inputstorage:{
-    paddingTop:100
+    paddingTop:70,
+    alignContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
   },
   icon:{
     color:"black"
   },
   bottom:{
     paddingTop: 50,
+    width: '100%',
   },
   bottomSection:{
     alignItems: 'center',
     justifyContent: 'center',
+    width: 400,
   },
   bottomText:{
     padding:10,
-    marginBottom: 50,
+    marginBottom: 140,
   },
   botaoCriar:{
-    color: 'blue',
-    backgroundColor: 'white',
-  }
+    borderWidth:2,
+    borderColor:"#0064E0",
+    color:"#0064E0",
+    borderRadius:30,
+    height:40,
+    width:"80%",
+    margin:5,
+    textAlign:"center",
+    justifyContent: 'center',
+  },
+  buttonLogin:{
+    width: "80%",
+    height: 30,
+    margin: 12,
+    padding: 5,
+    backgroundColor: "#0064E0",
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: 'white',
+  },
 })
 
 export default styles

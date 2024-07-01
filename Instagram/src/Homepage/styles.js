@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     fontSize: 30
   },
   fotos:{
-    width: 100, 
-    height: 100, 
+    width: 80, 
+    height: 80, 
     borderRadius: 60,
     margin: 10, 
     borderWidth: 5,
@@ -58,7 +58,18 @@ const styles = StyleSheet.create({
     height: 550,
     width: 550,
     padding: 2,
-  }
+  },
+  forto:{
+    width: 50 ,
+        height: 50 ,
+        borderRadius: 25,
+        margin: 10, 
+        borderWidth: 3,
+        borderTopColor: '#F514B4',
+        borderColor:'#F57414',
+        borderBottomColor: '#F4B206',
+        margin:10,
+  },
 })
 
 export default styles

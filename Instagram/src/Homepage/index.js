@@ -30,7 +30,13 @@ export default function Homepage({navigation}) {
             </View>   
 
             <View style={styles.feed}> 
-                    <Image style={styles.fotosFeed} source={ 'https://media.istockphoto.com/id/523150985/photo/full-body-portrait-of-a-handsome-young-man-smiling.jpg?s=612x612&w=0&k=20&c=dWBzZLrPBOkzk3LG7CKMUPCMe40cWclIidOvNg2_mVw=' } />
+                    <View style={{ flexDirection: 'row', alignItems: 'left', justifyContent: 'left'}}>
+                        <Image style={styles.forto} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
+                        <Text style={{ alignSelf: 'center', padding: 10}}>Jacinto El Grande</Text>
+                    </View>
+                    <View>
+                        <Image style={styles.fotosFeed} source={ 'https://media.istockphoto.com/id/523150985/photo/full-body-portrait-of-a-handsome-young-man-smiling.jpg?s=612x612&w=0&k=20&c=dWBzZLrPBOkzk3LG7CKMUPCMe40cWclIidOvNg2_mVw=' } />
+                    </View>
                     <View style={styles.fotoIcones}>
                         <FontAwesome5 style={{ marginLeft: 5, marginRight: 5}} name="heart" size={20} color="black" />
                         <Feather style={{ marginLeft: 5, marginRight: 5}} name="message-circle" size={20} color="black" />
