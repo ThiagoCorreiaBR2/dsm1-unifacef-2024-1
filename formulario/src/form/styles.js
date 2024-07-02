@@ -1,8 +1,8 @@
-import { StatusBar } from '"react-native"';
+
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    textinput:{
+    textInput:{
         borderColor: 'red',
         borderWidth: 1
     },

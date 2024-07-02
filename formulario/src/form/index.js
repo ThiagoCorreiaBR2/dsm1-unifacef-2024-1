@@ -27,7 +27,7 @@ export default function Form() {
     setState({...state, tipo: text})
   }
 
-  function handleButtonPress() {
+  /*function handleButtonPress() {
     let result
     switch(tipo) {
       case 'R':       //Retângulo
@@ -45,7 +45,7 @@ export default function Form() {
     }
     setState({...state, area: result})
   }
-
+*/
   
   const handleButtonPress = () => {
     let result
@@ -105,9 +105,10 @@ export default function Form() {
       <View style={styles.horizontal}>
         <Button title="Calcular" onPress={handleButtonPress} />
       </View>
-      <View style={styles.horizontal}>
-        <Text>Área: </Text>
-        <Text>Estado: {JSON.stringify(state)}</Text>
+        <View style={styles.horizontal}>
+        <Text>Base: {state.base}</Text>
+        <Text>Altu: {state.altura}</Text>
+        <Text>Área: {state.area}</Text>
       </View>
     </View>
   )
