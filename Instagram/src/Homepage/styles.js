@@ -1,18 +1,23 @@
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
+  GIGA: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    height: "500",
+  },
   container: {
     flex: 1,
-    backgroundColor: 'lightgray',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 2,
+    paddingTop: 50
   },
   instagram: {
     position: 'top-left',
     width: 150,
     height: 90,
-    marginRight: 110, 
+    marginRight: 80, 
     resizeMode: 'contain',
   },
   icones: {
@@ -35,10 +40,8 @@ const styles = StyleSheet.create({
   },
   fotosFeed:{
     width: 550,
-    height: 450,
-    margin: 10, 
-    paddingLeft: 20,
-    paddingRight: 20,
+    height: 400,
+    margin: 5, 
     resizeMode: 'contain',
   },
   fotoIcones:{
@@ -49,6 +52,8 @@ const styles = StyleSheet.create({
   },
   stories:{
     flexDirection: 'row',
+    alignItems: 'left',
+    justifyContent: 'left',
     padding: 2,
   },
   feed:{
@@ -60,9 +65,9 @@ const styles = StyleSheet.create({
     padding: 2,
   },
   forto:{
-    width: 50 ,
-        height: 50 ,
-        borderRadius: 25,
+    width: 30 ,
+        height: 30 ,
+        borderRadius: 15,
         margin: 10, 
         borderWidth: 3,
         borderTopColor: '#F514B4',
@@ -70,6 +75,15 @@ const styles = StyleSheet.create({
         borderBottomColor: '#F4B206',
         margin:10,
   },
+  underbarra:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width:"200%",
+    padding: 2, 
+    borderWidth: 0.5,
+    borderColor: 'black',
+  }
 })
 
 export default styles
