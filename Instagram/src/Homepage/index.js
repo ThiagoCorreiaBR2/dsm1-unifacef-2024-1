@@ -20,7 +20,7 @@ export default function Homepage({navigation}) {
                 </View>
                 <View style={styles.stories} >
                         <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center',height: 20 }}>
-                            <Image style={styles.fotos} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
+                            <Image style={styles.mfoto} source={ 'https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg' } />
                             <Text style={{ textAlign: 'center' }}>Seu story</Text>
                         </View>
                         <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }}>
@@ -30,14 +30,18 @@ export default function Homepage({navigation}) {
                         <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }}>
                             <Image style={styles.fotos} source={ 'https://thumbs.dreamstime.com/z/happy-man-okay-sign-portrait-white-background-showing-31418338.jpg' } />
                             <Text style={{ textAlign: 'center' }}>Jorge</Text>
-                        </View>     
+                        </View>  
+                        <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }}>
+                            <Image style={styles.fotos} source={ 'https://media.istockphoto.com/id/184600247/photo/grumpy-senior-man.jpg?s=612x612&w=0&k=20&c=_mBQPDcq1E3Vyz5uiw8QnwAikXVcdtiRChvrMUyuzRw=' } />
+                            <Text style={{ textAlign: 'center' }}>Steve</Text>
+                        </View>   
                 </View>   
 
                 <View style={styles.feed}> 
                         <View style={{ flexDirection: 'row'}}>
                             <Image style={styles.forto} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
-                            <Text style={{ alignSelf: 'center',paddingRight: 100}}>Roberto</Text>
-                            <Entypo name="dots-three-vertical" size={18} style={{alignSelf:"center" ,paddingLeft:60}} color="black" />
+                            <Text style={{ alignSelf: 'center',paddingRight: 280}}>Roberto</Text>
+                            <Entypo name="dots-three-vertical" size={18} style={{alignSelf:"center" ,paddingRight: 20}} color="black" />
                         </View>
                         <View>
                             <Image style={styles.fotosFeed} source={ 'https://media.istockphoto.com/id/523150985/photo/full-body-portrait-of-a-handsome-young-man-smiling.jpg?s=612x612&w=0&k=20&c=dWBzZLrPBOkzk3LG7CKMUPCMe40cWclIidOvNg2_mVw=' } />
@@ -49,7 +53,7 @@ export default function Homepage({navigation}) {
                             <Feather style={{ position: 'absolute', right: 1, alignSelf: 'center' , marginRight:10 }} name="bookmark" size={20} color="black" />
                         </View> 
                         <View>
-                            <Text style={{ marginLeft: 5, position: 'relative',width: 280 }}>
+                            <Text style={{ marginLeft: 5, position: 'relative',width: 390 }}>
                                 Curtido por 15 pessoas
                             <br></br>
                                 Apenas Eu
@@ -62,7 +66,7 @@ export default function Homepage({navigation}) {
                     <Entypo name="magnifying-glass" style={{paddingHorizontal: 25}} size={30} color="black" />
                     <Feather name="plus-square" style={{paddingHorizontal: 25}} size={30} color="black" />
                     <FontAwesome6 name="clapperboard" style={{paddingHorizontal: 25}} size={30} color="black" />
-                    <Image style={{width: 40 ,height: 40 ,borderRadius: 15,margin: 10, }} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
+                    <Image style={{width: 40 ,height: 40 ,borderRadius: 20,margin: 10, }} source={ 'https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg' } />
                 </View>
         </View>
     );

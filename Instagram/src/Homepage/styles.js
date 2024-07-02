@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     position: 'top-left',
     width: 150,
     height: 90,
-    marginRight: 80, 
+    marginRight: 170, 
     resizeMode: 'contain',
   },
   icones: {
@@ -46,9 +46,9 @@ const styles = StyleSheet.create({
   },
   fotoIcones:{
     flexDirection: 'row',
-    paddingRight: 50,
+    paddingRight: 250,
     position: 'relative',
-    width: 280,
+    width: 390,
   },
   stories:{
     flexDirection: 'row',
@@ -61,11 +61,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     margin: 2,
     height: 550,
-    width: '100vw',
+    width: '250vw',
     padding: 2,
   },
   forto:{
-    width: 30 ,
+        width: 30 ,
         height: 30 ,
         borderRadius: 15,
         margin: 10, 
@@ -80,10 +80,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width:"200%",
-    height:'12vh',
+    height:'10vh',
     padding: 5, 
     borderWidth: 0.5,
     borderColor: 'black',
+  },
+  mfoto:{
+    width: 80, 
+    height: 80, 
+    borderRadius: 60,
+    margin: 10, 
   }
 })
 
