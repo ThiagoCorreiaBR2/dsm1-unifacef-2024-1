@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     backgroundImage: 'linear-gradient(to bottom right, #EBC2FA, #EDF6FA,#D6FADE)',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '100%',
+    width: '100vw',
   },
   uppart:{
     alignItems: 'center',
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     color:"black"
   },
   bottom:{
-    paddingTop: 50,
+    paddingTop: 20,
     width: '100%',
   },
   bottomSection:{

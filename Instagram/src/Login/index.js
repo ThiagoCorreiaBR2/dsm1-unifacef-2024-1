@@ -3,16 +3,22 @@ import {View,Text,TextInput,Button, Pressable,Image} from "react-native";
 import styles from './styles'
 import { FontAwesome6 } from '@expo/vector-icons';
 import { instagram } from "../Imagens";
+import { FontAwesome } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 
 export default function Login({navigation}) {
     return (
         <View style={styles.container}>
+            <View style={{position: 'absolute', top: 0, left: 0,paddingTop: 20,paddingLeft: 20}}>
+                <AntDesign name="arrowleft" size={24} color="black" />
+            </View>
                 <View style={styles.uppart}>
                     <View >
                         <Text style={{paddingBottom:50}}>Português (Brasil)</Text>
                     </View>
                     <View >
-                        <Image source={instagram} style={{ width: 100, height: 100 }} />
+                        
+                        <FontAwesome name="youtube-square" size={150} color="black" />
                     </View>
                     <View style={styles.inputstorage}>
                         <TextInput style={styles.input} placeholder="Nome de usuário, Email ou número"/>
