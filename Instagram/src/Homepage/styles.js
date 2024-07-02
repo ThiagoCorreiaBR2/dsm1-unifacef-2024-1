@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   GIGA: {
     flexDirection: 'column',
     alignItems: 'center',
-    height: "500",
+    height: "100vh",
   },
   container: {
     flex: 1,
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     borderBottomColor: '#F4B206',
   },
   fotosFeed:{
-    width: 550,
+    width: '100vw',
     height: 400,
     margin: 5, 
     resizeMode: 'contain',
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     margin: 2,
     height: 550,
-    width: 550,
+    width: '100vw',
     padding: 2,
   },
   forto:{
@@ -80,7 +80,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width:"200%",
-    padding: 2, 
+    height:'12vh',
+    padding: 5, 
     borderWidth: 0.5,
     borderColor: 'black',
   }

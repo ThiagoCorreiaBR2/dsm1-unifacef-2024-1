@@ -6,13 +6,14 @@ import { AntDesign } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
+import { FontAwesome6 } from '@expo/vector-icons';
 
 
 export default function Homepage({navigation}) {
     return (
         <View style={styles.GIGA}>
             <View style={styles.container}>
-                <View style={{flexDirection: 'row', alignItems: 'center', paddingBottom: 20,height: 5}}>
+                <View style={{flexDirection: 'row', alignItems: 'center', paddingBottom: 20,height: '5vh'}}>
                     <Image source={{ uri: 'https://logosmarcas.net/wp-content/uploads/2020/04/Instagram-Logo.png' }} style={styles.instagram}></Image>
                     <AntDesign style={styles.icones} name="hearto" size ={20} color="black"/>    
                     <FontAwesome5 style={styles.icones} name="facebook-messenger" size={20} color="black" />
@@ -35,7 +36,7 @@ export default function Homepage({navigation}) {
                 <View style={styles.feed}> 
                         <View style={{ flexDirection: 'row'}}>
                             <Image style={styles.forto} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
-                            <Text style={{ alignSelf: 'center',paddingRight: 60}}>Nocinto El Grande</Text>
+                            <Text style={{ alignSelf: 'center',paddingRight: 100}}>Roberto</Text>
                             <Entypo name="dots-three-vertical" size={18} style={{alignSelf:"center" ,paddingLeft:60}} color="black" />
                         </View>
                         <View>
@@ -57,10 +58,11 @@ export default function Homepage({navigation}) {
                 </View>
             </View>
             <View style={styles.underbarra}>
-                    <Entypo name="home" style={{paddingHorizontal: 35}} size={24} color="black" />
-                    <Entypo name="magnifying-glass" style={{paddingHorizontal: 35}} size={24} color="black" />
-                    <Feather name="plus-square" style={{paddingHorizontal: 35}} size={24} color="black" />
-                    <Image style={{width: 30 ,height: 30 ,borderRadius: 15,margin: 10, }} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
+                    <Entypo name="home" style={{paddingHorizontal: 25}} size={30} color="black" />
+                    <Entypo name="magnifying-glass" style={{paddingHorizontal: 25}} size={30} color="black" />
+                    <Feather name="plus-square" style={{paddingHorizontal: 25}} size={30} color="black" />
+                    <FontAwesome6 name="clapperboard" style={{paddingHorizontal: 25}} size={30} color="black" />
+                    <Image style={{width: 40 ,height: 40 ,borderRadius: 15,margin: 10, }} source={ 'https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg' } />
                 </View>
         </View>
     );
